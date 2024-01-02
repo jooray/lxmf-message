@@ -35,7 +35,7 @@ not very useful for my use-case, since I prefer immediate messages, but if you s
 up", you might want to sync with propagation node to see if you have missed any messages.
 
 Consideration for running: I recommend running rnsd out of this process, otherwise it would start
-and stop all the time. Also, in process rnsd can get stuck. Just run rnsd in background.
+and stop all the time. Also, the "in process" rnsd can get stuck. Just run rnsd in background.
 
 ## Learning and credits
 
