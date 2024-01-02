@@ -57,8 +57,8 @@ if destination_identity == None:
     RNS.Transport.request_path(destination_bytes)
     # And wait until it arrives; timeout in 300s
     print("Don't have identity for " + destination + ", waiting for it to arrive for 300s")
-    while destinantion_identity == None and (time.time() - basetime) < 300:
-        destinantion_identity = RNS.Identity.recall(destination_bytes)
+    while destination_identity == None and (time.time() - basetime) < 300:
+        destination_identity = RNS.Identity.recall(destination_bytes)
         time.sleep(1)
 if destination_identity == None:
     print("Error: Cannot recall identity")
