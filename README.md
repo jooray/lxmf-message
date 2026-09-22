@@ -1,5 +1,20 @@
 # lxmf-message
 
+## No longer maintained
+
+I do not maintain this project any more.
+[signal-monitoring](https://github.com/jooray/signal-monitoring) can still send
+notifications over LXMF, along with Signal, Matrix and SimpleX.
+
+For what I am building now, see my
+[project showcase](https://juraj.bednar.io/showcase/).
+
+I also write books and work on things that are not code: my cypherpunk novel
+[Tamers of Entropy](https://tamersofentropy.net/), my English podcast
+[Option Plus](https://optionplus.io/), [my blog](https://juraj.bednar.io/en/blog-en/),
+and [everything else](https://juraj.bednar.io/en). There is also
+[more about me](https://juraj.bednar.io/en/about-me/).
+
 Send LXMF message from command-line
 
 ## Purpose
